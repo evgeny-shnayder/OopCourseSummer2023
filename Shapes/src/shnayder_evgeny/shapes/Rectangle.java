@@ -1,13 +1,14 @@
 package shnayder_evgeny.shapes;
 
 public class Rectangle implements Shape {
-    private  double wight;
+    private double wight;
     private double height;
 
     public Rectangle(double wight, double height) {
         this.wight = wight;
         this.height = height;
     }
+
     @Override
     public double getWidth() {
         return wight;
